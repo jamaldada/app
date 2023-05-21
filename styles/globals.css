@@ -7,7 +7,7 @@ body {
   font-family: 'Poppins', sans-serif;
   color: var(--themeBlack);
   background: var(--background-color);
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
 
 :root{
@@ -51,4 +51,24 @@ a {
   box-sizing: border-box;
   transition: all 300ms ease;
 
+}
+
+.btn {
+  width: max-content;
+  padding: 1rem;
+  border-radius: 4rem;
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  background-color: var(--themeRed);
+}
+
+/* naira sign */
+.naira::before {
+  content: "\20A6";
+}
+
+.naira {
+  color: var(--themeRed);
 }
