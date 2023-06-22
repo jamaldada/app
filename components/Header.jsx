@@ -18,7 +18,7 @@ export default function Header() {
             {/* logo side */}
             <div className={css.logo}>
                 <Image src ={Logo} alt = "" width={50} height={50} />
-                <span>ChowNow</span>
+                <span>StackChow</span>
             </div>
 
             {/* menu side */}
@@ -44,7 +44,7 @@ export default function Header() {
                     <Link href={`/order/${Order}`}>
                         <div className={css.cart}>
                             <UilReceipt size={35} color='#2E2E2E' />
-                            {Order !== "" && <div className={css.badge }>{items}</div>}
+                            {Order !== "" && <div className={css.badge}>{items}</div>}
                         </div>
                     </Link>
                 )}

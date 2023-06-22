@@ -12,7 +12,7 @@ export default function Home( {food} ) {
 
     <div className={css.container}>
         <Head>
-          <title>ChowNow</title>
+          <title>StackChow</title>
           <meta name="description" content="Fastest food delivery service within your school" />
           <link rel="icon" href="/Logo.png" />
         </Head>
